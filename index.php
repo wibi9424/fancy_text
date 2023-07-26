@@ -1,4 +1,5 @@
 <?php
+//this is example, to use the fancytext function
 include('fancytext.php');
 if(isset($_GET['t']) && !empty($_GET['t'])){
   $text = $_GET['t'];
